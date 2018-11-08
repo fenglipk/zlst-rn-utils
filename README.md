@@ -3,11 +3,11 @@
 
 ## Getting started
 
-`$ npm install react-native-zlst-rn-utils --save`
+`$ npm install @zlst/react-native-zlst-utils --save`
 
 ### Mostly automatic installation
 
-`$ react-native link react-native-zlst-rn-utils`
+`$ react-native link @zlst/react-native-zlst-utils`
 
 ### Manual installation
 
@@ -26,12 +26,12 @@
   - Add `new RNZlstRnUtilsPackage()` to the list returned by the `getPackages()` method
 2. Append the following lines to `android/settings.gradle`:
   	```
-  	include ':react-native-zlst-rn-utils'
-  	project(':react-native-zlst-rn-utils').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-zlst-rn-utils/android')
+  	include ':@zlst_react-native-zlst-utils'
+	project(':@zlst_react-native-zlst-utils').projectDir = new File(rootProject.projectDir, '../node_modules/@zlst/react-native-zlst-utils/android')
   	```
 3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
   	```
-      compile project(':react-native-zlst-rn-utils')
+      compile project(':@zlst_react-native-zlst-utils')
   	```
 
 
