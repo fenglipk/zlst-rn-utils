@@ -1,6 +1,6 @@
 
 {
-  "name": "react-native-zlst-rn-utils",
+  "name": "@zlst/react-native-zlst-utils",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,8 +10,8 @@
   "keywords": [
     "react-native"
   ],
-  "author": "",
-  "license": "",
+  "author": "fengli",
+  "license": "ISC",
   "peerDependencies": {
     "react-native": "^0.41.2"
   }
